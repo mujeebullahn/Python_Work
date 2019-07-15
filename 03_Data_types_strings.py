@@ -72,12 +72,12 @@ print(text_example.capitalize())
 # user_in_L_name = input('your last name')
 #
 #
-# #-join teh two
+# #-join the two
 # #-and print
 # user_fullname = user_in_F_name + ' ' + user_in_L_name
 # print(user_fullname)
 #
-#         #let us use nterpolation
+#         #let us use iterpolation
 #
 # welcome_mess = f"hi {user_fullname}, youre welcome" #f is a function
 # print(welcome_mess)
