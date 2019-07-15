@@ -2,8 +2,8 @@
     #Computers are stupid
     #so we need be specific for our datatypes
     #String is a list of characters bundled together in a specific order using index
-
     #we can use type() to check the data type
+    #Capitalize
 
 print('hello')
 print(type('hello'))
