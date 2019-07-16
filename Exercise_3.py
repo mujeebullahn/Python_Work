@@ -23,7 +23,13 @@ story['Middle'] = input('How was the middle like? ')
 story['End'] = input('Finally how was the end like? ')
 
 output_Hero = f"The hero is is ==> {story['Hero']}"
-print(output_Hero)
+if story['Hero'] == 'Muji':
+    print(output_Hero)
+elif story['Hero'] == 'muji':
+    print(output_Hero)
+else:
+    print('=======> ammm maybe')
+
 output_Beg = f"Begining ==> {story['Begining']}"
 print(output_Beg)
 output_Mid = f"Middle ==> {story['Middle']}"

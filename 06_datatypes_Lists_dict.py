@@ -72,4 +72,19 @@ print(leo_d[2][1]) # is index 2 = ['leo', 'd'] but in there [1] index 1 which is
 
 print(leo_d[2][0][1])
 
+        #Tuples
+        #tuples are immutable lists
+        #meaning they do not change
+    #Syntax
+        # tuple_list = ('hello', 10 , 13 , 2)
+#the difference between this and list is that this uses round brackets
+#but list uses square brackets []
+#we can not change the tuple itself but we can chang the state 
 
+my_tuple = ('eggs', 'bread', 'oats')
+print(my_tuple)
+print(type(my_tuple))
+
+breakpoint() #allows you to have control over the terminal
+
+#my_tuple[3].insert(34.6)
